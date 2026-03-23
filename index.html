@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- ✅ Your CSS File -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+<body>
+    <div class="bg-container">
+        <p class="head">Hello</p>
+        <h1 class="head">Jane Doe</h1>
+        <div class="bg-containerTwo">
+            <h1 class="book">Bookmark Your Favorite Sites</h1>
+            <form id="bookmarkForm">
+                <label for="siteNameInput">SITE NAME</label>
+                <div>
+                    <input id="siteNameInput" type="text" class="form-control" />
+                    <p id="siteNameErrMsg"></p>
+                </div>
+                <label for="siteUrlInput">SITE URL</label>
+                <div>
+                    <input id="siteUrlInput" type="text" class="form-control" />
+                    <p id="siteUrlErrMsg"></p>
+                </div>
+                <div class="butbtn">
+                    <button id="submitBtn" class="but bg-primary">Submit</button>
+                </div>
+                <ul id="bookmarksList">
+                    <a target="_blank" href="" />
+                </ul>
+            </form>
+        </div>
+    </div> 
+        <script src="script.js"></script>
+</body>
+
+</html>
